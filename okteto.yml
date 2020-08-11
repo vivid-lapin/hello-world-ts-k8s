@@ -1,0 +1,6 @@
+name: hello-world-ts
+image: node:12-alpine
+command: ["ash"]
+workdir: /app
+forward:
+  - 5000:5000
